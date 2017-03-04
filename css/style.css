@@ -4,5 +4,312 @@
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/bringin.ttf")  format("truetype"),
-    url("path/bringin.otf") format("opentype");
+    url("../fonts/bringin.otf") format("opentype");
+}
+
+/*COMMON*/
+
+body {
+  font-family: "Open Sans", Verdana, sans-serif;
+
+  /*background-color: #ffffff;*/
+  background-color: #ccc; /*TOFIX*/
+
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  background-color: #ffffff; /*TOFIX*/
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.h2-home-title {
+  color: #2c2e37;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.h3-home-title {
+  color: #2c2e37;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+
+.logo-style {
+  width: 117px;
+  height: 27px;
+  font-family: "Bringin", Verdana, sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+/*HEADER*/
+
+.header-main {
+  padding-top: 30px;
+
+  background-color: #8caec2;
+}
+
+.header-top {
+  margin-bottom: 153px;
+  background-color: #ffffff;
+
+  opacity: 0.23;
+}
+
+.header-logo {
+  float: left;
+
+  width: 165px;
+  padding-left: 20px;
+
+  font-size: 0;
+}
+
+.logo-half-1 {
+  color: #36aeea;
+}
+
+.logo-half-2 {
+  color: #95a5ad;
+}
+
+.nav-main {
+  float: left;
+
+  width: 750px;
+}
+
+.nav-main-list {
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+
+  list-style: none;
+}
+
+.nav-main-list li {
+  float: left;
+
+  margin-right: 25px;
+}
+
+.nav-main-list a {
+  color: #9daeb6;
+  font-size: 14px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-call-header {
+  float: right;
+}
+
+.header-content {
+  min-height: 324px;
+
+  margin-bottom: 153px;
+  padding: 37px;
+  border: 3px solid #bbb; /*TOFIX #ffffff*/
+}
+
+/*ABOUT*/
+
+.about {
+  padding-top: 243px;
+  padding-bottom: 291px;
+
+  background-color: #f6f4f4;
+}
+
+.about-title {
+  width: 352px;
+
+  margin-left: 2px;
+}
+
+.about-text {
+  width: 352px;
+
+  margin-left: 4px;
+}
+
+/*JOURNAL*/
+
+.journal {
+  padding-top: 108px;
+  padding-bottom: 90px;
+
+  text-align: center;
+}
+
+.journal-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.journal-item {
+  width: 380px;
+}
+
+/*ORDER*/
+
+.order {
+  padding-top: 188px;
+  padding-bottom: 239px;
+
+  background: #f6f4f4;
+}
+
+.order-text {
+  width: 702px;
+
+  color: #949494;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/*WORK*/
+
+.work {
+  padding-top: 108px;
+  padding-bottom: 100px;
+
+  text-align: center;
+}
+
+.work-list {
+  display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+}
+
+.work-list li {
+  width: 205px;
+}
+
+/*OFFERS*/
+
+.offers {
+  padding-top: 30px;
+  padding-bottom: 477px;
+}
+
+.offers-list {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.offers-item {
+  width: 200px;
+  height: 382px;
+}
+
+/*GALLERY*/
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 79px;
+}
+
+/*PARTNERS*/
+
+.partners {
+  margin-bottom: 59px;
+  padding-top: 75px;
+  padding-bottom: 71px;
+
+  background-color: #f8f9fa;
+}
+
+.partners-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*CLIENTS*/
+
+.clients {
+  margin-bottom: 140px;
+  padding-top: 40px;
+}
+
+.clients-title {
+  margin-bottom: 120px;
+
+  text-align: center;
+}
+
+.clients-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.client-feedback {
+  width: 529px;
+
+  margin: 0;
+}
+
+/*NEWSLETTER*/
+
+.newsletter {
+  margin-bottom: 166px;
+}
+
+.newsletter-form {
+  width: 514px;
+
+  margin: 0 auto;
+
+  text-align: center;
+  background: #5c97a5;
+}
+
+.newsletter-form input {
+  width: 454px;
+  height: 60px;
+  margin-bottom: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+}
+
+/*FOOTER*/
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  min-height: 80px;
 }

@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Mountain Travel</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-      <header class="header-main">
-        <div class="header-top">
-          <div class="logo-header">
+      <header class="header-main container">
+        <div class="header-top clearfix">
+          <div class="header-logo">
             <span class="logo-style logo-half-1">Moun</span>
             <span class="logo-style logo-half-2">tains</span>
           </div>
@@ -33,46 +34,48 @@
             <span class="logo-style">to the Mountains</span>
           </h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-          <a class="btn btn-header" href=""></a>
+          <a class="btn btn-order-header" href="">Order now</a>
         </div>
       </header>
-      <section class="about">
-        <h3 class="about-title">About us</h3>
+      <section class="about container">
+        <h3 class="about-title h3-home-title">About us</h3>
         <p class="about-text">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
         <a class="btn btn-about" href="#">Read more</a>
       </section>
-      <section class="journal">
-        <h2 class="journal-title">Our journal</h2>
-        <article class="journal-img-box journal-item">
-          <img src="#" alt="journal image-1" width="380" height="380">
-        </article>
-        <article class="journal-text-box journal-item">
-          <span>Love</span>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h4>
-          <p>You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.</p>
-          <span>01</span>
-        </article>
-        <article class="journal-img-box journal-item">
-          <img src="#" alt="journal image-2" width="380" height="380">
-        </article>
-        <article class="journal-text-box journal-item">
-          <span>Tree</span>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h4>
-          <p>The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.</p>
-          <span>02</span>
-        </article>
-        <article class="journal-img-box journal-item">
-          <img src="#" alt="journal image-3" width="380" height="380">
-        </article>
-        <article class="journal-text-box journal-item">
-          <span>Water</span>
-          <h4>LITTLE PIECES OF OUR PROUDNESS</h4>
-          <p>What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?</p>
-          <span>03</span>
-        </article>
+      <section class="journal container">
+        <h2 class="journal-title h2-home-title">Our journal</h2>
+        <div class="journal-content">
+          <article class="journal-img-box journal-item">
+            <img src="#" alt="journal image-1" width="380" height="380">
+          </article>
+          <article class="journal-text-box journal-item">
+            <span>Love</span>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h4>
+            <p>You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills.</p>
+            <span>01</span>
+          </article>
+          <article class="journal-img-box journal-item">
+            <img src="#" alt="journal image-2" width="380" height="380">
+          </article>
+          <article class="journal-text-box journal-item">
+            <span>Tree</span>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h4>
+            <p>The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now.</p>
+            <span>02</span>
+          </article>
+          <article class="journal-img-box journal-item">
+            <img src="#" alt="journal image-3" width="380" height="380">
+          </article>
+          <article class="journal-text-box journal-item">
+            <span>Water</span>
+            <h4>LITTLE PIECES OF OUR PROUDNESS</h4>
+            <p>What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?</p>
+            <span>03</span>
+          </article>
+        </div>
       </section>
-      <section class="order">
-        <h2 class="order-title">Do you want to go?</h2>
+      <section class="order container">
+        <h3 class="order-title h3-home-title">Do you want to go?</h3>
         <p class="order-text">Aliquam sed posuere urna, et gravida nisl. Praesent interdum nisl libero, pretium egestas purus eleifend vitae. Mauris suscipit vel lectus at luctus.</p>
         <form class="order-form" action="/echo" method="post">
           <fieldset>
@@ -83,8 +86,8 @@
           <span class="order-note">* Your data will not be transferred</span>
         </form>
       </section>
-      <section class="work">
-        <h2 class="work-title">How we work</h2>
+      <section class="work container">
+        <h2 class="work-title h2-home-title">How we work</h2>
         <ul class="work-list">
           <li>
             <h5>Lorem ipsum dolor sit</h5>
@@ -104,8 +107,8 @@
           </li>
         </ul>
       </section>
-      <section class="offers">
-        <h2 class="offers-title">Travel with us</h2>
+      <section class="offers container">
+        <h2 class="offers-title h2-home-title">Travel with us</h2>
         <ul class="offers-list">
           <li class="offers-item">
             <h5 class="offers-item-title">Carpathian</h5>
@@ -149,39 +152,45 @@
           </li>
         </ul>
       </section>
-      <section class="gallery">
-        <h3 class="gallery-title">Gallery</h3>
-        <img src="#" alt="gallery image-1" width="263" height="343">
-        <img src="#" alt="gallery image-2" width="361" height="243">
-        <img src="#" alt="gallery image-3" width="457" height="343">
-        <img src="#" alt="gallery image-4" width="263" height="281">
-        <img src="#" alt="gallery image-5" width="361" height="381">
-        <img src="#" alt="gallery image-6" width="457" height="281">
+      <section class="gallery container">
+        <h2 class="gallery-title h2-home-title">Gallery</h2>
+        <div class="gallery-content">
+          <img src="#" alt="gallery image-1" width="263" height="343">
+          <img src="#" alt="gallery image-2" width="361" height="243">
+          <img src="#" alt="gallery image-3" width="457" height="343">
+          <img src="#" alt="gallery image-4" width="263" height="281">
+          <img src="#" alt="gallery image-5" width="361" height="381">
+          <img src="#" alt="gallery image-6" width="457" height="281">
+        </div>
       </section>
-      <section class="partners">
-        <img src="#" alt="partner-1">
-        <img src="#" alt="partner-2">
-        <img src="#" alt="partner-3">
-        <img src="#" alt="partner-4">
-        <img src="#" alt="partner-5">
-        <img src="#" alt="partner-6">
+      <section class="partners container">
+        <div class="partners-content">
+          <a href="#"><img src="img/partner-1.png" alt="partner-1"></a>
+          <a href="#"><img src="img/partner-2.png" alt="partner-2"></a>
+          <a href="#"><img src="img/partner-3.png" alt="partner-3"></a>
+          <a href="#"><img src="img/partner-4.png" alt="partner-4"></a>
+          <a href="#"><img src="img/partner-5.png" alt="partner-5"></a>
+          <a href="#"><img src="img/partner-6.png" alt="partner-6"></a>
+        </div>
       </section>
-      <section class="clients">
-        <h3 class="clients-title">Our clients say</h3>
-        <blockquote>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-          <cite>Pavliv Yaroslav Web designer</cite>
-        </blockquote>
-        <blockquote>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-          <cite>John Scott The Fringe</cite>
-        </blockquote>
+      <section class="clients container">
+        <h3 class="clients-title h3-home-title">Our clients say</h3>
+        <div class="clients-content">
+          <blockquote class="client-feedback">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+            <cite>Pavliv Yaroslav Web designer</cite>
+          </blockquote>
+          <blockquote class="client-feedback">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+            <cite>John Scott The Fringe</cite>
+          </blockquote>
+        </div>
       </section>
-      <section class="newsletter">
+      <section class="newsletter container">
         <form class="newsletter-form" action="/echo" method="post">
           <fieldset>
             <legend>Contacts</legend>
-            <p>CONTACTS Sign up for our newsletter to receive updates</p>
+            <p>Sign up for our newsletter to receive updates</p>
             <input type="text" id="newsletter-name" placeholder="Name" required>
             <input type="text" id="newsletter-phone" placeholder="Phone" required>
             <input type="text" id="newsletter-mail" placeholder="E-mail" required>
@@ -189,7 +198,7 @@
           </fieldset>
         </form>
       </section>
-      <footer class="footer-main">
+      <footer class="footer-main container">
         <span class="footer-rights">All rights reserved 2015</span>
         <div class="social">
           <a href="#">Twitter</a>
