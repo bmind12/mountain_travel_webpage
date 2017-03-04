@@ -1,0 +1,8 @@
+/*FONTS*/
+@font-face {
+  font-family: "Bringin";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/bringin.ttf")  format("truetype"),
+    url("path/bringin.otf") format("opentype");
+}
