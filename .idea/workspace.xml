@@ -26,8 +26,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="560">
-                  <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+                <state relative-caret-position="307">
+                  <caret line="177" column="17" lean-forward="true" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -40,8 +40,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="258">
-                  <caret line="279" column="21" lean-forward="false" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
+                <state relative-caret-position="362">
+                  <caret line="561" column="11" lean-forward="false" selection-start-line="561" selection-start-column="11" selection-end-line="561" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -53,19 +53,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>about</find>
-      <find>no-repeat</find>
-      <find>journa</find>
-      <find>jou</find>
-      <find>Verdana</find>
-      <find>jo</find>
-      <find>&quot;&quot;Verdana&quot;&quot;</find>
-      <find>order</find>
-      <find>179</find>
-      <find>open sans&quot;;</find>
-      <find>height</find>
-      <find>166</find>
-      <find>price</find>
       <find>offers</find>
       <find>4.jpg&quot; alt=&quot;gallery image-4&quot; width=&quot;263&quot; height=&quot;281&quot;&gt;</find>
       <find>Roboto</find>
@@ -83,6 +70,19 @@
       <find>wrapp</find>
       <find>about-wrapper</find>
       <find>wrapper</find>
+      <find>offers-item-pr</find>
+      <find>after</find>
+      <find>min-wi</find>
+      <find>shop</find>
+      <find>header-content</find>
+      <find>.btn</find>
+      <find>about</find>
+      <find>journ</find>
+      <find>h3</find>
+      <find>transition</find>
+      <find>hover</find>
+      <find>order</find>
+      <find>.order</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -175,7 +175,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
     <property name="editor.config.accepted" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../161145-device" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/sryabov/Documents/Projects/mountain_travel/css/normalize.css" />
   </component>
   <component name="RecentsManager">
@@ -259,12 +259,15 @@
       <workItem from="1488439186860" duration="598000" />
       <workItem from="1488522214375" duration="5680000" />
       <workItem from="1488621799354" duration="54893000" />
-      <workItem from="1488831015190" duration="5991000" />
+      <workItem from="1488831015190" duration="6041000" />
+      <workItem from="1488911010964" duration="8890000" />
+      <workItem from="1488993049476" duration="2624000" />
+      <workItem from="1489091401918" duration="6696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67162000" />
+    <option name="totallyTimeSpent" value="85422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -301,6 +304,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4683">
+          <caret line="223" column="46" lean-forward="false" selection-start-line="223" selection-start-column="46" selection-end-line="223" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -346,22 +397,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="177" column="17" lean-forward="true" selection-start-line="177" selection-start-column="17" selection-end-line="177" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="279" column="21" lean-forward="false" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        <state relative-caret-position="362">
+          <caret line="561" column="11" lean-forward="false" selection-start-line="561" selection-start-column="11" selection-end-line="561" selection-end-column="11" />
           <folding />
         </state>
       </provider>
